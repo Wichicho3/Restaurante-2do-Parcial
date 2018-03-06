@@ -19,7 +19,7 @@ ul li{
     font-size: 18px;
     font-weight: bold;
     color: black;
-    background:burlywood;
+    background:#F74141;
     padding: 10px;
     border-radius: 12px;
 }
@@ -39,5 +39,32 @@ img{
 #pie{
     text-align: center;
     font-weight:bolder;
-    background:burlywood;
+    background:#F74141;
+}
+form{
+    margin: 0 auto;
+    width: 800px;
+    background: lightcoral;
+    padding: 5px;
+    border-radius: 10px;
+}
+h1{
+    text-align: center;
+    font-size: 25px;
+}
+form div{
+    margin-bottom: 5px;
+}
+label{
+    font-family: Times New Roman;
+    width: 100px;
+    text-align: right;
+    display: inline;
+}
+input{
+    width: 300px;
+}
+textArea{
+    width: 500px;
+    vertical-align: middle;
 }
