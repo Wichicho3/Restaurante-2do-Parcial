@@ -10,7 +10,7 @@ and open the template in the editor.
 #cabecera{
     font-family: French Script MT;
     font-size: 72px;
-    color:darkgreen;
+    color: darkgreen;
     text-align: center;    
 }
 ul li{
@@ -67,4 +67,17 @@ input{
 textArea{
     width: 500px;
     vertical-align: middle;
+}
+body{
+    background: lightgoldenrodyellow;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    color: black;
+    font-size: 15px;
+}
+a:visited{
+    color: blue;
 }

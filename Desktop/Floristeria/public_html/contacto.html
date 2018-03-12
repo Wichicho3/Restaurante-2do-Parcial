@@ -9,6 +9,7 @@ and open the template in the editor.
         <title>Jerez Floristeía</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="css/estilos.css" rel="stylesheet" type="text/css"/>
     </head>
     <body>
         <div id="cabecera">
@@ -17,23 +18,66 @@ and open the template in the editor.
     </div>
         <div id="menu">
             <ul>
-                <li>Inicio</li>
-                <li>Quienes Somos</li>
-                <li>Tienda</li>
-                <li>Catálogo de productos</li>
-                <li>contactos</li>
+                <li><a href=""> Inicio</a></li>
+                    <li><a href="">Quienes Somos</a></li>
+                    <li><a href="">Tienda</a></li>
+                    <li><a href="">Catálogo de productos</a></li>
+                <li><a href="index.html">contactos</a></li>               
+                
             </ul> 
         </div>
+        
         <div id="formulario">
-            <div id="pie"> 
+            <h1> Escríbenos, respodemos al instante. </h1>
+            <form>
+                
+                <div>
+                <label for="nombre"> Nombre: </label>
+                <input type="text" id="nombre"/>
+                </div>
+                
+                <div>
+                <label for="telefono"> Teléfono: </label>
+                <input type="text" id="teléfono"/>
+                </div>
+                
+                <div>
+                <label for="correo"> eMail: </label>
+                <input type="text" id="email"/>
+                </div>
+                
+                <div>
+                <label for="asunto"> Asunto: </label>
+                <select id="asunto" name="asunto">
+                    <option value="" selected="selected"> Elige una opción </option>
+                    <option value="Informacion"> Solicitud de informaón </option> 
+                    <option value="Cotiza"> Solicitar cotización </option> 
+                    <option value="Reclamacion"> Realizar una reclamación </option> 
+                    <option value="Otro"> Otro </option>
+                </select>
+                </div>
+                
+                <div>
+                    <label for="mensaje"> Mensaje: </label>
+                    <textarea id="msg" cols="80" rows="10"> </textarea>
+                </div>
+                
+                <div class="boton">
+                    <button type="submit"> Enviar </button>
+                </div>
+                                                      
+            </form>
+        </div>
+        </br>
+        
+        <div id="pie"> 
             Av. 27 de Febrero No.398, Esq. Carmen Mendoza de Cornielle,
             Santo Domingo, República Dominicana.</br>
             Tel.: 809-563-6267  Fax: 809-412-8737</br>
             <img src="images/facebook.png" width= 35 height= 35 alt=""/>
             <img src="images/instagram.jpg" width= 35 height= 35 alt=""/>
-            <img src="images/twitter.png" width= 35 height= 35 alt=""/>
-            
+            <img src="images/twitter.png" width= 35 height= 35 alt=""/>           
         </div>
-        </div>
+   
     </body>
 </html>
