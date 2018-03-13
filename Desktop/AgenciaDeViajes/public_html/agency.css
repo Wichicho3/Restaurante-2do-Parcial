@@ -8,9 +8,9 @@ and open the template in the editor.
     Author     : 00140434
 */
 #cabecera{
-    font-family: French Script MT;
+    font-family: Times New Roman;
     font-size: 72px;
-    color: darkgreen;
+    color: darkred;
     text-align: center;    
 }
 ul li{
@@ -19,7 +19,7 @@ ul li{
     font-size: 18px;
     font-weight: bold;
     color: black;
-    background:#F74141;
+    background: lightblue;
     padding: 10px;
     border-radius: 12px;
 }
@@ -33,13 +33,13 @@ img{
     text-align: center;
     font-size: 28px;
     font-weight: bold;
-    font-family: French Script MT;
-    color: brown;
+    font-family: Baskerville Old Face;
+    color: black;
 }
 #pie{
     text-align: center;
     font-weight:bolder;
-    background:#F74141;
+    background:lightblue;
 }
 form{
     margin: 0 auto;
@@ -69,15 +69,8 @@ textArea{
     vertical-align: middle;
 }
 body{
-    background: lightgoldenrodyellow;
+    background: burlywood;
 }
 a{
     text-decoration: none;
-}
-a:hover{
-    color: black;
-    font-size: 15px;
-}
-a:visited{
-    color: blue;
 }
