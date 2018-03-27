@@ -44,11 +44,12 @@ img{
     background:coral;
 }
 form{
-    margin: 1em;
-    width: 700px;
+    margin: 0 auto;
+    margin: 1 em;
+    width: 800px;
     background: chocolate;
     padding: 5px;
-    border-radius: 10px;
+    border-radius: 2px;
 }
 h1{
     text-align: center;
@@ -59,12 +60,12 @@ form div{
 }
 label{
     font-family: Times New Roman;
-    width: 150px;
+    width: 100px;
     text-align: right;
     display: inline-block;
 }
 input{
-    width: 250px;
+    width: 200px;
 }
 textArea{
     width: 500px;
